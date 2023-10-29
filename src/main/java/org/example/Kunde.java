@@ -33,12 +33,5 @@ public class Kunde {
         this.geburtsdatum=geburtsdatum;
     }
 
-    public static void main(String[] args){
-        Kunde kunde = new Kunde();
-        kunde.setName("Roman");
 
-        String id1 = kunde.getName();
-        System.out.println("Name: "+ id1);
-
-    }
 };
