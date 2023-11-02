@@ -13,5 +13,10 @@ public static void main(String[] args){
 
     System.out.println(auto2.getModel());
 
+    Auto auto3 = new Auto("vw t-cross", 1.5F);
+
+    System.out.println(auto3.getModel());
+
+
 }
 }

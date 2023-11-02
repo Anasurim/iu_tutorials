@@ -20,6 +20,12 @@ public class Auto {
         this.extraTueren=extraTueren;
     }
 
+    public Auto(String model, float hubraum){
+        this.model=model;
+        this.hubraum=hubraum;
+
+    }
+
     public String getModel(){
         return model;
     }
