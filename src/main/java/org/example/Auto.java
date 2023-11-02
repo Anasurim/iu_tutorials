@@ -13,6 +13,17 @@ public class Auto {
         hersteller=new Hersteller();
     }
 
+    public Auto(String model, float hubraum, int anzahlRaeder, int extraTueren){
+        this.model=model;
+        this.hubraum=hubraum;
+        this.anzahlRaeder=anzahlRaeder;
+        this.extraTueren=extraTueren;
+    }
+
+    public String getModel(){
+        return model;
+    }
+
     public int getAnzahlRaeder(){
         return anzahlRaeder;
     }

@@ -9,5 +9,9 @@ public static void main(String[] args){
     System.out.println(auto.getAnzahlRaeder());
     System.out.println(hersteller.getName());
 
+    Auto auto2= new Auto("vw t-roc", 1, 4, 1);
+
+    System.out.println(auto2.getModel());
+
 }
 }
