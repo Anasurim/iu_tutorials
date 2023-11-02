@@ -1,9 +1,12 @@
 package org.example;
 
-public class Buch {
-    private String hersteller;
-    private String titel;
-    private String artikelnummer;
+public class Buch extends Artikel {
+
     private String autor;
+
+    public String getBeschreibung(){
+        return super.getBeschreibung() + Artikel.TRENNZEICHEN + autor + Artikel.TRENNZEICHEN;
+
+    };
 
 }
