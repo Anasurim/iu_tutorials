@@ -20,6 +20,7 @@ public class Kunde {
         this.vorname=vorname;
     }
     public String getGeschlecht(){
+
         return geschlecht;
     }
     public void setGeschlecht(String geschlecht){
@@ -33,5 +34,8 @@ public class Kunde {
         this.geburtsdatum=geburtsdatum;
     }
 
+    public Kunde(){
+
+    }
 
 };

@@ -17,5 +17,7 @@ public class OnlineShop {
         System.out.println(id2);
 
         System.out.println(Artikel.TRENNZEICHEN);
+
+
     }
 }
