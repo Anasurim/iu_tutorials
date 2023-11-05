@@ -19,9 +19,11 @@ public class Kunde {
     public void setVorname(String vorname){
         this.vorname=vorname;
     }
-    public String getGeschlecht(){
+    public String getGeschlecht () throws UngueltigesGeschlechtException{
+        if (geschlecht == "w" || geschlecht == "m"){
+            return geschlecht;
 
-        return geschlecht;
+        } else throw new UngueltigesGeschlechtException();
     }
     public void setGeschlecht(String geschlecht){
         this.geschlecht=geschlecht;
@@ -34,8 +36,6 @@ public class Kunde {
         this.geburtsdatum=geburtsdatum;
     }
 
-    public Kunde(){
 
-    }
 
 };
